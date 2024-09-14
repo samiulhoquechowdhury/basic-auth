@@ -22,7 +22,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "https://samxyz-samiul-hoque-chowdhurys-projects.vercel.app//products";
+            const url = "https://basic-auth-smoky.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
