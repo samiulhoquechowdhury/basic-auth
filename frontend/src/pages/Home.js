@@ -54,7 +54,9 @@ function Home() {
                     <div class="text">Logout</div>
                 </button>
             </div>
-            <h1 className='welcome'>Welcome <span className='welcomeName'>{loggedInUser}</span></h1>
+            <div className="welcome-section">
+                <h1 className='welcome'>Welcome <span className='welcomeName'>{loggedInUser}</span></h1>
+            </div>
 
             {/* <div>
                 {
