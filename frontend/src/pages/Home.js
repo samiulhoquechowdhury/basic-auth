@@ -55,7 +55,8 @@ function Home() {
                 </button>
             </div>
             <div className="welcome-section">
-                <h1 className='welcome'>Welcome <span className='welcomeName'>{loggedInUser}</span></h1>
+                <h1 className='welcome'>Welcome</h1>
+                <span className='welcomeName'>{loggedInUser}</span>
             </div>
 
             {/* <div>

@@ -245,12 +245,15 @@ body {
 
 @media (max-width: 768px) {
   .welcome {
-    font-size: 2rem;
+    font-size: 5rem;
+    text-transform: uppercase;
 
   }
 
   .welcome-section {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
