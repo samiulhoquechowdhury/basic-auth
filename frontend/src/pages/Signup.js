@@ -27,7 +27,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `https://samxyz-samiul-hoque-chowdhurys-projects.vercel.app/auth/signup`;
+            const url = `https://basic-auth-smoky.vercel.app/auth/signup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
